@@ -1,8 +1,8 @@
-# include <stdios.h>
+# include <stdio.h>
 main()
 { int N;
-	for(N=100;N=<200;++N)
+	for(N=100;N<=200;++N)
 	{ printf("%d\n", N);
 	}
-	Return 0;
+	return 0;
 }
